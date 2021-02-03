@@ -1,0 +1,22 @@
+.skills {
+  height: 800px;
+  background-color: #ad1a1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills > h1 {
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 5px solid black;
+}
+
+.skills__components {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}

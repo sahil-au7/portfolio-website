@@ -1,11 +1,11 @@
 import "./App.css";
 import Particles from "react-tsparticles";
 import Header from "./UI/Navbar";
-import Home from "./Components/Home";
-import Contact from "./Components/Contact";
-import Skills from "./Components/Skills";
-import Projects from "./Components/Projects";
-import About from "./Components/About";
+import Home from "./Components/Home/Home";
+import Contact from "./Components/Contact/Contact";
+import Skills from "./Components/Skills/Skills";
+import Projects from "./Components/Projects/Projects";
+import About from "./Components/About/About";
 import optionsParticleJs from "./Utilities/particles.json";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Header />
       {/* <Particles id="tsparticles" options={optionsParticleJs} /> */}
       <Home />
-      <Projects />
+      {/* <Projects /> */}
       <Skills />
       <About />
       <Contact />

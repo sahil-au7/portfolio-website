@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
+import Button from "@material-ui/core/Button";
+import GetAppIcon from "@material-ui/icons/GetApp";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -51,6 +53,16 @@ const Navbar = () => {
             CONTACT
           </Link>
         </h3>
+        <a
+          className="navbar__resume"
+          href="../public/Sahil__Resume.pdf"
+          download
+        >
+          <Button variant="contained" color="default">
+            <GetAppIcon />
+            <strong> Resume</strong>
+          </Button>
+        </a>
       </div>
     </div>
   );

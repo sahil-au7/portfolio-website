@@ -1,0 +1,45 @@
+.home {
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__title {
+  display: flex;
+  flex-direction: column;
+  transition: transform 3s;
+}
+
+.home__title1 {
+  font-size: 100px;
+  font-weight: 700;
+  transition-timing-function: ease-in;
+  transition: all 3s;
+}
+
+.home__title2 {
+  font-size: 70px;
+  font-weight: 600;
+  transition: transform 3s;
+}
+
+.home__title3 {
+  font-size: 30px;
+}
+
+.home__titleText1:hover {
+  transform: scaleY(1.4);
+  color: red;
+}
+
+.home__titleText2:hover {
+  transform: scale(1.4);
+  color: red;
+}
+
+.home__title > span {
+  margin-top: 20px;
+  border-bottom: 7px solid red;
+  width: 100px;
+}
