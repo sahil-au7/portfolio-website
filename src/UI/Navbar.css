@@ -33,7 +33,7 @@
 }
 
 .navbar_links > h3 {
-  font-size: 13px;
+  font-size: 11px;
   padding: 10px;
   font-weight: 400;
   margin-right: 10px;
@@ -41,10 +41,14 @@
   letter-spacing: 1px;
 }
 
+.navbar_links > h3:hover {
+  transform: scale(1.09);
+}
+
 .active {
   color: #ad1a1d;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   border-bottom: 0.5px solid lightslategray;
   padding-bottom: 4px;
@@ -52,4 +56,6 @@
 
 .navbar__resume {
   text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
 }

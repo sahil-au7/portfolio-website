@@ -10,16 +10,17 @@
   padding: 20px;
   transition: all 0.7s;
 }
-/* 
+
 .skillComponent > img:hover {
   transform: scale(1.2);
-} */
+}
 
 .skillComponent .tooltiptext {
   visibility: hidden;
   font-size: 12px;
   width: 120px;
   background-color: black;
+  /* opacity: 0.9; */
   color: #fff;
   text-align: center;
   border-radius: 6px;

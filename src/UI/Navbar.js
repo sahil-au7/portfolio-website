@@ -35,7 +35,7 @@ const Navbar = () => {
         </h3>
         <h3>
           {" "}
-          <Link to="projects" spy={true} smooth={true}>
+          <Link activeClass="active" to="projects" spy={true} smooth={true}>
             PROJECTS
           </Link>
         </h3>

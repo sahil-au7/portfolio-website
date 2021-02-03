@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="app">
       <NavBar />
-      <Particles id="tsparticles" options={optionsParticleJs} />
+      {/* <Particles id="tsparticles" options={optionsParticleJs} /> */}
       <Home />
       {/* <Projects /> */}
       <Skills />
