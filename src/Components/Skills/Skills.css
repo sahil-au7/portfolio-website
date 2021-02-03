@@ -1,14 +1,16 @@
 .skills {
-  height: 800px;
+  height: 900px;
   background-color: #ad1a1d;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .skills > h1 {
   font-size: 40px;
   font-weight: 600;
+  margin-bottom: 30px;
   border-bottom: 5px solid black;
 }
 
@@ -19,4 +21,27 @@
   width: 700px;
   flex-wrap: wrap;
   margin-top: 50px;
+}
+
+.skills__title {
+  display: flex;
+  margin-left: 25px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+.skills__title > h3 {
+  padding: 10px;
+  cursor: pointer;
+  width: 200px;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 30px;
+  border: 3px solid black;
+}
+
+.active {
+  background-color: black;
+  color: white;
 }

@@ -1,6 +1,6 @@
 import "./App.css";
 import Particles from "react-tsparticles";
-import Header from "./UI/Navbar";
+import NavBar from "./UI/Navbar";
 import Home from "./Components/Home/Home";
 import Contact from "./Components/Contact/Contact";
 import Skills from "./Components/Skills/Skills";
@@ -11,8 +11,8 @@ import optionsParticleJs from "./Utilities/particles.json";
 function App() {
   return (
     <div className="app">
-      <Header />
-      {/* <Particles id="tsparticles" options={optionsParticleJs} /> */}
+      <NavBar />
+      <Particles id="tsparticles" options={optionsParticleJs} />
       <Home />
       {/* <Projects /> */}
       <Skills />

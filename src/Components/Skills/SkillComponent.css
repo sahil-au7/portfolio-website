@@ -10,10 +10,10 @@
   padding: 20px;
   transition: all 0.7s;
 }
-
+/* 
 .skillComponent > img:hover {
   transform: scale(1.2);
-}
+} */
 
 .skillComponent .tooltiptext {
   visibility: hidden;
@@ -27,7 +27,6 @@
 
   /* Position the tooltip */
   position: absolute;
-  /* top: 20px; */
   z-index: 1;
 }
 

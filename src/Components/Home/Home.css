@@ -8,20 +8,21 @@
 .home__title {
   display: flex;
   flex-direction: column;
-  transition: transform 3s;
+  /* transition: transform 3s; */
 }
 
 .home__title1 {
   font-size: 100px;
   font-weight: 700;
+  line-height: 100px;
   transition-timing-function: ease-in;
-  transition: all 3s;
+  transition: all 2s;
 }
 
 .home__title2 {
   font-size: 70px;
   font-weight: 600;
-  transition: transform 3s;
+  transition: all 3s;
 }
 
 .home__title3 {
@@ -29,7 +30,8 @@
 }
 
 .home__titleText1:hover {
-  transform: scaleY(1.4);
+  /* transform: scale(1.4); */
+  -webkit-transform: scale(1.2);
   color: red;
 }
 

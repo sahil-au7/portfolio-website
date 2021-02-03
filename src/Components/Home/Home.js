@@ -14,8 +14,15 @@ const Home = () => {
           <span className="home__titleText2">I</span>
           <span className="home__titleText2">'</span>
           <span className="home__titleText2">m </span>
-          <span className="home__titleText2">Sahil </span>
-          <span className="home__titleText2">Rao,</span>
+          <span className="home__titleText2">S</span>
+          <span className="home__titleText2">a</span>
+          <span className="home__titleText2">h</span>
+          <span className="home__titleText2">i</span>
+          <span className="home__titleText2">l </span>
+          <span className="home__titleText2">R</span>
+          <span className="home__titleText2">a</span>
+          <span className="home__titleText2">o</span>
+          <span className="home__titleText2">,</span>
         </div>
         <div className="home__title3">
           <span className="home__titleText">Full </span>

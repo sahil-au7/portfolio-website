@@ -3,6 +3,7 @@ import "./Navbar.css";
 import Button from "@material-ui/core/Button";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import { Link } from "react-scroll";
+import LinearProgress from "@material-ui/core/LinearProgress";
 
 const Navbar = () => {
   const [show, handelShow] = useState(false);

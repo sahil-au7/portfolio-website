@@ -2,45 +2,6 @@
   height: 900px;
 }
 
-.contact__link {
-  display: flex;
-  background-color: #ad1a1d;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* opacity: 0.8; */
-  padding: 45px;
-}
-
-.contact__link > h1 {
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 10px;
-  border-bottom: 5px solid black;
-}
-
-.contact__socialMedia {
-  display: flex;
-}
-
-.contact__linkLogo {
-  opacity: 2;
-  font-size: 40px !important;
-  margin-top: 10px;
-  margin-right: 20px;
-  padding: 5px;
-  transition: all 7s;
-  transition-timing-function: ease-in;
-  color: black !important;
-}
-
-.contact__linkLogo:hover {
-  transform: scale(1.4);
-}
-.contact__links > a {
-  text-decoration: none;
-}
-
 .contact__form {
   height: 700px;
 }
