@@ -59,7 +59,11 @@ const Navbar = () => {
           href="../public/Sahil__Resume.pdf"
           download
         >
-          <Button variant="contained" color="default">
+          <Button
+            className="navbar__resumeButton"
+            variant="contained"
+            color="default"
+          >
             <GetAppIcon />
             <strong> Resume</strong>
           </Button>
