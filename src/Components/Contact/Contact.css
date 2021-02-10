@@ -1,6 +1,7 @@
 .contact {
   height: 1000px;
-  color: black;
+  /* color: black; */
+  background-color: #1b1d1e;
 }
 
 .contact__form {
@@ -19,4 +20,17 @@
 .footer > h1 {
   font-size: 12px;
   font-weight: 400;
+}
+
+.contact__info {
+  display: flex;
+}
+
+.contact__form {
+  flex: 0.5;
+}
+
+.contact__map {
+  flex: 0.5;
+  width: 100%;
 }

@@ -2,6 +2,7 @@
   height: 900px;
   background-color: #ad1a1d;
   display: flex;
+  /* width: 100vw; */
   flex-direction: column;
   align-items: center;
   justify-content: center;

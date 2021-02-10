@@ -32,7 +32,9 @@ const Map = () => {
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         <Marker position={[28.4595, 77.0266]}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            <div className="map__popup">
+              <p>Sahil Rao</p>
+            </div>
           </Popup>
         </Marker>
       </MapContainer>
