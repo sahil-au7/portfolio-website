@@ -1,6 +1,5 @@
 .contact {
   height: 1000px;
-  /* color: black; */
   background-color: #1b1d1e;
 }
 
@@ -14,7 +13,9 @@
   align-items: center;
   justify-content: center;
   padding: 40px;
-  /* opacity: 0.7; */
+  color: red;
+  font-weight: 400;
+  font-size: 40px;
 }
 
 .footer > h1 {
@@ -32,5 +33,20 @@
 
 .contact__map {
   flex: 0.5;
+  flex-direction: row;
   width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .contact__info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact__map {
+    flex: 0.5;
+    flex-direction: row;
+    height: 500px;
+    margin: 30px;
+    width: 500px;
+  }
 }

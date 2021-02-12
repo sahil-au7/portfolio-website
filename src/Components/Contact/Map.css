@@ -16,4 +16,10 @@
 }
 
 .map__popup {
+  /* line-height: 15px; */
+  border-radius: 10px;
+}
+
+.map__popup > p {
+  line-height: 10px;
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Map.css";
 import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
 
@@ -14,13 +14,6 @@ let DefaultIcon = L.icon({
 });
 
 L.Marker.prototype.options.icon = DefaultIcon;
-
-export const showDataOnMap = () => (
-  <Popup>
-    <div className="info-container"></div>
-  </Popup>
-);
-
 const Map = () => {
   return (
     <div className="map">
@@ -30,13 +23,7 @@ const Map = () => {
         scrollWheelZoom={false}
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        <Marker position={[28.4595, 77.0266]}>
-          <Popup>
-            <div className="map__popup">
-              <p>Sahil Rao</p>
-            </div>
-          </Popup>
-        </Marker>
+        <Marker position={[28.4595, 77.0266]}></Marker>
       </MapContainer>
     </div>
   );
